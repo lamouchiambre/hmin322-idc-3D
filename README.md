@@ -11,17 +11,17 @@ Ce document contient la liste des activités à réaliser durant le TP.
 
 ## Préparation
 
-Cloner le dépôt
+- Cloner le dépôt
 ```sh
 git clone https://github.com/TsubameDono/hmin322-idc-3D.git
 ```
-Construire la bibliothèque libigl et télécharger toutes les bibliothèques externes (eigen, etc.)
+- Construire la bibliothèque **libigl** et télécharger toutes les bibliothèques externes (eigen, etc.)
 ```sh
 $ cd libigl # enter libigl directory
 $libigl/ mkdir build # create build directory
 $libigl/ cd build # enter build directory
 $build/ cmake .. # build libigl project (automatically load external libs)
-$build make # build libraries
+$build/ make # build libraries
 ```
 
 ## Explication
