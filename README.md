@@ -9,8 +9,10 @@ Ce document contient la liste des activités à réaliser durant le TP.
 - cmake
 - g++/gcc
 - make
-- libblas-dev liblapack-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev freeglut3-dev
-- (sudo apt-get install <libname>)
+- libblas-dev liblapack-dev (blas api)
+- freeglut3-dev (OpenGL)
+- libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev (RandR, Xinerama, XCursor, Xi)
+(sudo apt-get install <libname>)
 
 ## Préparation
 
