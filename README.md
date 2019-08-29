@@ -5,9 +5,12 @@ Ce document contient la liste des activités à réaliser durant le TP.
 
 ## Pré-requis
 
+- git
 - cmake
 - g++/gcc
 - make
+- libblas-dev liblapack-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+- (sudo apt-get install <libname>)
 
 ## Préparation
 
@@ -15,13 +18,15 @@ Ce document contient la liste des activités à réaliser durant le TP.
 ```sh
 git clone https://github.com/TsubameDono/hmin322-idc-3D.git
 ```
-- Construire la bibliothèque **libigl** et télécharger toutes les bibliothèques externes (eigen, etc.)
+- Compiler le projet de base. Construit automatiquement la bibliothèque **libigl** et télécharger toutes les bibliothèques externes (eigen, etc.)
 ```sh
-$ cd libigl # enter libigl directory
-$libigl/ mkdir build # create build directory
-$libigl/ cd build # enter build directory
+$ mkdir build # create build directory
+$ cd build # enter build directory
 $build/ cmake .. # build libigl project (automatically load external libs)
+#$ build/ cmake .. -G "Visual Studio 15 2017 Win64" # for window
 $build/ make # build libraries
+OR
+$build/ cmake --build .
 ```
 
 ## Explication
