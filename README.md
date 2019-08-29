@@ -17,6 +17,8 @@ Ce document contient la liste des activités à réaliser durant le TP.
 - Cloner le dépôt
 ```sh
 git clone https://github.com/TsubameDono/hmin322-idc-3D.git
+cd hmin322-idc-3D
+git submodule update --init --recursive
 ```
 - Compiler le projet de base. Construit automatiquement la bibliothèque **libigl** et télécharger toutes les bibliothèques externes (eigen, etc.)
 ```sh
