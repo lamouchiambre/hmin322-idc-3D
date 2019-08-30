@@ -13,6 +13,6 @@ add_subdirectory(libigl)
 #find_package(LIBIGL REQUIRED QUIET)
 
 # Add your project files
-file(GLOB SRCFILES tp/*.cpp)
+file(GLOB SRCFILES tp/*.h tp/*.cpp)
 add_executable(tp_bin ${SRCFILES})
 target_link_libraries(tp_bin igl::core igl::opengl_glfw)
