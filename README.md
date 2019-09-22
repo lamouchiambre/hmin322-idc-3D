@@ -3,6 +3,8 @@
 Projet *template* pour le TP sur l'insertion de données cachées dans les objets 3D.
 Ce document contient la liste des activités à réaliser durant le TP.
 
+## VERIFIER LA FIN DU DOCUMENT POUR LES CONDITIONS DE RENDU DE TP
+
 ## Pré-requis
 
 - git
@@ -109,5 +111,6 @@ Proposer des améliorations soit :
 - Capacité
 - Robustesse
 
-Rapport à rendre avant le 30 septembre 2019 à l'adresse suivante : sebastien.beugnon[at]lirmm.fr
-Objet du mail : [HMIN322] IDC 3D - <NOM.ETUDIANT>
+# RENDU
+## Rapport à rendre avant le 30 septembre 2019 à l'adresse suivante : sebastien.beugnon[at]lirmm.fr
+## Objet du mail : [HMIN322] IDC 3D - <NOM.ETUDIANT>
