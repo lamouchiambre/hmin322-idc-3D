@@ -70,7 +70,7 @@ Eigen::MatrixXi F;
 
 ## Travaux
 
-### 1. Importer un maillage
+### 1. Importer un maillage (uniquement pour ceux n'ayant pas de projets 3D)
 1. Clôner le dépôt
 2. Charger un maillage 3D à l'aide de la bibliothèque **libigl** en utilisant la fonction *read_triangle(.)*
 3. Sauvegarder une copie du maillage 3D à l'aide de la bibliothèque **libigl** en utilisant la fonction *write_triangle(.)*
