@@ -5,12 +5,12 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 option(LIBIGL_WITH_OPENGL            "Use OpenGL"         ON)
 option(LIBIGL_WITH_OPENGL_GLFW       "Use GLFW"           ON)
-option(LIBIGL_WITH_PYTHON            "Use OpenGL"         OFF)
-option(BUILD_SHARED_LIBS "Build shared libraries" ON)
+option(LIBIGL_WITH_PYTHON            "Use Python"         OFF)
+#option(BUILD_SHARED_LIBS "Build shared libraries" OFF)
 
-add_subdirectory(libigl)
+#add_subdirectory(libigl)
 
-#find_package(LIBIGL REQUIRED QUIET)
+find_package(LIBIGL REQUIRED QUIET)
 
 # Add your project files
 file(GLOB SRCFILES tp/*.h tp/*.cpp)
